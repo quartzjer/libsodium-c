@@ -1,0 +1,15 @@
+{
+  "name": "libsodium-c",
+  "version": "1.0.1",
+  "description": "libsodium's c source bundled and published in npm",
+  "scripts": {
+    "test": "make check",
+    "postinstall": "./autogen.sh && ./configure && make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/quartzjer/libsodium-c.git"
+  },
+  "author": "https://github.com/jedisct1",
+  "homepage": "https://github.com/jedisct1/libsodium"
+}
